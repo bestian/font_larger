@@ -1,0 +1,20 @@
+body.lg {
+	font-size: 16px;
+}
+
+.lg .description {
+	font-size: 16px !important;
+}
+
+.lg .itemInfo .prodTitle {
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.lg .itemInfo {
+	font-size: 16px !important;
+}
+
+.lg .td, .QA_gray1 {
+	font-size: 16px !important;
+}

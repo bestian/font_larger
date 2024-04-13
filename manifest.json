@@ -1,0 +1,27 @@
+{
+  "name": "__MSG_extName__",
+  "description": "__MSG_extIntro__",
+  "default_locale": "en",
+  "icons": { "16": "icon16.png",
+  			"48": "icon48.png",
+  			"128": "icon128.png" },
+  "version": "1.0.0",
+  "action": {  
+    "default_title" : "toggleCss",
+    "default_icon": {
+      "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"}
+  },
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.taaze.tw/*", "*://taaze.tw/*"],
+      "css": ["content.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "manifest_version": 3
+}
