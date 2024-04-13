@@ -1,1 +1,1 @@
-document.body.classList.toggle('lg');
+document.body.classList.toggle('font_larger');

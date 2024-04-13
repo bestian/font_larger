@@ -1,20 +1,24 @@
-body.lg {
+html, body {
 	font-size: 16px;
 }
 
-.lg .description {
+.description, .description strong {
 	font-size: 16px !important;
 }
 
-.lg .itemInfo .prodTitle {
+.itemInfo.prodTitle {
 	height: auto !important;
 	min-height: auto !important;
 }
 
-.lg .itemInfo {
+.itemInfo {
 	font-size: 16px !important;
 }
 
-.lg .td, .QA_gray1 {
+ td,.QA_gray1 {
 	font-size: 16px !important;
+}
+
+.puli {
+	font-size: 18px !important;
 }
